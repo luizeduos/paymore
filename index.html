@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/store.png" type="image/png">
+    <title>PayMore</title>
+</head>
+<body>
+    <div class="container">
+        <!--Navbar-->
+        <div class="nav">
+            <!--div para o switch do darkmode-->
+            <div class="btn-darkMode"></div>
+            <!--Utilizei do "<h1>PayMore</h1>" como logo-->
+            <h1>PayMore</h1>
+            <!--Icone para acessar o carrinho-->
+            <div id="carrinho"><img src="assets/carrinho.png" alt="carrinho"></div>
+        </div>
+        <!--Parte inferior do nav que contém os links-->
+        <div class="nav-links">
+            <a href="#">Início</a>
+            <a href="#h">Novidades</a>
+            <a href="#v">Mais comprados</a>
+            <a href="#s">Sobre nós</a>
+        </div>
+        <div class="header" id="#h">
+            <div class="slides">
+                <!--bolinhas-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <!--imagens-->
+                <div class="slide primeiro"><img src="assets/img1.jpg"></div>
+                <div class="slide"><img src="assets/img2.jpg"></div>
+                <div class="slide"><img src="assets/img3.jpg"></div>
+
+                <div class="navegacao-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+            <div class="navegacao-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+        <h1 id="vendasTxt">Mais vendidos</h1>
+        <div class="vendidos" id="#v">
+            <div class="produtos">
+                <div class="prod" id="card1">
+                    <div class="card img1">
+                        <img src="https://a-static.mlcdn.com.br/450x450/camisa-brasil-oficial-amarelo-selecao-brasileiras-original-cbf/vidapeshop/aj5026g/48dc8e33ec5c3aef1f7502fc835824b5.jpeg" alt="camiseta do brasil" class="img">
+                        <h4 class="h4">Camisa Brasil oficial amarelo seleção brasileiras original - CBF</h4>
+                        <div class="alinharH3"><h3>R$<h3 id="valorProduto">199.99</h3></h3></div>
+                    </div>
+                    <div class="btnAddCarrinho c"><i class="fa-solid fa-circle-plus"></i><p class="pP">Carrinho</p></div>
+                </div>
+
+                <div class="prod" id="card2">
+                    <div class="card img2">
+                        <img src="https://static.netshoes.com.br/produtos/camisa-corinthians-ii-2324-sn-torcedor-nike-masculina/26/JD8-2730-026/JD8-2730-026_zoom1.jpg?ts=1681336753&ims=544x" alt="" class="img">
+                        <h4 class="h4">Camisa Corinthians II 23/24 s/n° Torcedor Nike Masculina</h4>
+                        <div class="alinharH3"><h3>R$<h3 id="valorProduto">199.99</h3></h3></div>
+                    </div>
+                    <div class="btnAddCarrinho c"><i class="fa-solid fa-circle-plus"></i><p class="pP">Carrinho</p></div>
+                </div>
+
+                <div class="prod" id="card3">
+                    <div class="card img3">
+                        <img src="https://static.netshoes.com.br/produtos/camisa-sao-paulo-i-2324-sn-torcedor-adidas-masculina/24/FB8-4703-024/FB8-4703-024_zoom1.jpg?ts=1678390856&ims=544x" alt="" class="img">
+                        <h4 class="h4">Camisa São Paulo I 23/24 s/n° Torcedor Adidas Masculina</h4>
+                        <div class="alinharH3"><h3>R$<h3 id="valorProduto">349.99</h3></h3></div>
+                    </div>
+                    <div class="btnAddCarrinho c"><i class="fa-solid fa-circle-plus"></i><p class="pP">Carrinho</p></div>
+                </div>
+
+                <div class="prod" id="card4">
+                    <div class="card img4">
+                        <img src="https://static.netshoes.com.br/produtos/camisa-santos-i-2324-sn-torcedor-umbro-masculina/78/2IA-5072-078/2IA-5072-078_zoom1.jpg?ts=1684272196&ims=544x" alt="" class="img">
+                        <h4 class="h4">Camisa Brasil oficial amarelo seleção brasileiras original - CBF</h4>
+                        <div class="alinharH3"><h3>R$<h3 id="valorProduto">167.19</h3></h3></div>
+                    </div>
+                    <div class="btnAddCarrinho c"><i class="fa-solid fa-circle-plus"></i><p class="pP">Carrinho</p>   </div>
+                </div>
+            </div>
+        </div>
+        <div class="sobre" id="#s">
+            <h1>Sobre nós</h1>
+            <p>Bem-vindo à PayMore, a sua loja de camisetas de time de confiança! Nós nos orgulhamos de oferecer uma ampla variedade de camisetas de alta qualidade para os fãs mais apaixonados.
+                Na PayMore, entendemos o que significa ser um torcedor. Sabemos que cada gol, cada vitória e cada momento emocionante no campo é amplificado quando você está vestindo as cores do seu time. É por isso que nos dedicamos a fornecer camisetas que não apenas representam seu time, mas também a paixão que você tem por ele.                
+                Nossas camisetas são feitas com materiais da mais alta qualidade, garantindo que você se sinta confortável enquanto torce pelo seu time. Além disso, nossos designs autênticos garantem que você se destaque na multidão, seja assistindo ao jogo no estádio ou na tela da TV em casa.
+                Na PayMore, acreditamos que ser um torcedor é mais do que apenas assistir aos jogos - é fazer parte de uma comunidade. É por isso que estamos comprometidos em fornecer o melhor serviço ao cliente possível. Nossa equipe está sempre pronta para ajudá-lo a encontrar a camiseta perfeita.
+                Então, por que esperar? Junte-se à família PayMore hoje e mostre ao mundo o orgulho do seu time!</p>
+        </div>
+        <div class="footer">
+            <p>Rua não exitente, 508, Bairro: Centro, Estado de Minas Gerais.</p>
+            <div class="txt"><h1>developed by</h1><h1 id="lupe">LUPE</h1><h1>™</h1></div> 
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <i class="fa-solid fa-xmark"></i>
+        <h1>Carrinho</h1>
+        <div class="prodAdd"></div>
+        <div id="total">
+            <span class="txtTotal">Total</span>
+            <span class="total"></span>
+        </div>        
+        <button id="btnFinalizar" onclick="mostrarAlerta()">Finalizar compra</button>
+    </div>
+
+    <div id="alert" class="fundo">
+        <div class="modal">
+          <p>Obrigado por comprar conosco!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<!--
+  \\      /\    \\ ||||||  ######
+  \\      /\    \\ ||  ||| ##
+  \\      /\    \\ ||||||  ####
+  \\      /\    \\ ||      ##
+  ///\\\\ /\\\\\\\ ||      ######
+-->
+
+
+
+
+</html>
