@@ -1,4 +1,3 @@
-```
 # PayMore
 
 ## Descrição
@@ -14,7 +13,6 @@ Este é um site de comércio eletrônico simples que permite aos usuários naveg
 
 ## Uso
 
-```
 O site estará disponível em https://luizeduos.github.io/paymore.
 
 ## Explicação do código
@@ -39,6 +37,4 @@ O código JavaScript do site está localizado no arquivo `script.js`. O código 
 
 ## Conclusão
 
-Este é um site de comércio eletrônico simples que permite aos usuários navegar e
-
-Gerado por [BlackboxAI](https://www.useblackbox.ai)
+Este é um site de comércio eletrônico simples que permite aos usuários navegar e fazer compras.
